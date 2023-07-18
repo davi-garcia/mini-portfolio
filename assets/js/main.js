@@ -55,7 +55,7 @@ const sr = ScrollReveal({
   duration: 2500,
   delay: 400
 })
-
+ 
 sr.reveal(`.profile__border`)
 sr.reveal(`.profile__name`, {delay: 500})
 sr.reveal(`.profile__profession`, {delay: 600})
