@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favicon_icon.png" type="image/x-icon">
+
+  <!--=============== REMIX ICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+  <title>Mini Portfólio - José Víctor Ardasse</title>
+</head>
+
+<body>
+  <!--=============== HEADER PROFILE ===============-->
+  <header class="profile container">
+    <!-- Theme Button -->
+    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+
+    <div class="profile__container grid">
+      <div class="profile__data">
+        <div class="profile__border">
+          <div class="profile__perfil">
+            <img src="assets/img/perfil.png" alt="Foto de perfil">
+          </div>
+        </div>
+        <h2 class="profile__name">José Víctor Ardasse</h2>
+        <h3 class="profile__profession">Desenvolvedor Frontend React | Next.js</h3>
+
+        <ul class="profile__social">
+          <a href="https://www.instagram.com/ardasse.jose" target="_blank" class="profile__social-link">
+            <i class="ri-instagram-line"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/ardassejose" target="_blank" class="profile__social-link">
+            <i class="ri-linkedin-box-line"></i>
+          </a>
+          <a href="https://www.github.com/ardassejose" target="_blank" class="profile__social-link">
+            <i class="ri-github-line"></i>
+          </a>
+        </ul>
+      </div>
+
+      <div class="profile__info grid">
+        <div class="profile__info-group">
+          <h3 class="profile__info-number">3</h3>
+          <p class="profile__info-description">
+            anos de<br> experiência
+          </p>
+        </div>
+        <div class="profile__info-group">
+          <h3 class="profile__info-number">+15</h3>
+          <p class="profile__info-description">
+            Projetos<br> concluídos
+          </p>
+        </div>
+      </div>
+
+      <div class="profile__buttons">
+        <a download="" href="assets/pdf/CV-JoseVictorArdasse.pdf" class="button">
+          Download CV <i class="ri-download-line"></i>
+        </a>
+
+        <div class="profile__buttons--small">
+          <a href="https://api.whatsapp.com/send?phone=5522996051275" target="_blank"
+            class="button button__small button__gray">
+            <i class="ri-whatsapp-line"></i>
+          </a>
+
+          <a href="https://m.me/ardassejose" target="_blank" class="button button__small button__gray">
+            <i class="ri-messenger-line"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <section class="filters container">
+      <!--=============== FILTERS TABS ===============-->
+      <ul class="filters__content">
+        <button class="filters__button filter-tab-active" data-target="#projetos">
+          Projetos
+        </button>
+
+        <button class="filters__button" data-target="#habilidades">
+          Habilidades
+        </button>
+      </ul>
+
+      <div class="filters__sections">
+        <!--=============== PROJECTS ===============-->
+        <div class="projects__content grid filters__active" data-content id="projetos">
+          <!-- PROJETO -->
+          <article class="projects__card">
+            <img src="./assets/img/projeto-nextmove.jpg" alt="Imagem de Projeto 1" class="projects__img">
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Next.js</span>
+                <h3 class="projects__title">Nextmove: SPA Viewer</h3>
+                <a href="https://spa-professional-index.vercel.app/" target="_blank"
+                  class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <!-- FIM PROJETO -->
+
+          <!-- PROJETO -->
+          <article class="projects__card">
+            <img src="./assets/img/project1.jpg" alt="Imagem de Projeto 1" class="projects__img">
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">React</span>
+                <h3 class="projects__title">GPT-3: Landing Page Moderna em React</h3>
+                <a href="https://gpt3-tawny.vercel.app/" target="_blank" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJETO 2 -->
+          <article class="projects__card">
+            <img src="./assets/img/project2.jpg" alt="Imagem de Projeto 2" class="projects__img">
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">React</span>
+                <h3 class="projects__title">TeamUP!: Landing Page em React</h3>
+                <a href="https://team-up-eight.vercel.app/" target="_blank"
+                  class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJETO 3 -->
+          <article class="projects__card">
+            <img src="./assets/img/project3.jpg" alt="Imagem de Projeto 3" class="projects__img">
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">React</span>
+                <h3 class="projects__title">Organograma em React</h3>
+                <a href="https://organograma-beta.vercel.app/" target="_blank"
+                  class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJETO 4 -->
+          <article class="projects__card">
+            <img src="./assets/img/project4.jpg" alt="Imagem de Projeto 4" class="projects__img">
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">React</span>
+                <h3 class="projects__title">SysCars: Exibição de Automóveis</h3>
+                <a href="https://syscars-ardassejose.vercel.app/" target="_blank"
+                  class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJETO 7 -->
+          <article class="projects__card">
+            <img src="./assets/img/project7.jpg" alt="Imagem de Projeto 6" class="projects__img">
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">UX/UI</span>
+                <h3 class="projects__title">Prototipagem de site – Arsenon Tech</h3>
+                <a href="https://ardassejose.github.io/NetflixClone/" target="_blank"
+                  class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!--=============== SKILLS ===============-->
+        <div class="skills__content grid" data-content id="habilidades">
+          <div class="skills_area">
+            <h3 class="skills__title">Desenvolvimento Frontend</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__level">Avançado</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__level">Avançado</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__level">Intermediário</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="skills__group">
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__level">Avançado</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Figma</h3>
+                    <span class="skills__level">Intermediário</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">TailwindCSS</h3>
+                    <span class="skills__level">Intermediário</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="skills_area">
+            <h3 class="skills__title">Desenvolvimento Backend</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Node.js</h3>
+                    <span class="skills__level">Intermediário</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">MySQL</h3>
+                    <span class="skills__level">Intermediário</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Next.js</h3>
+                    <span class="skills__level">Avançado</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="skills__group">
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">RESTFUL API</h3>
+                    <span class="skills__level">Intermediário</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Docker</h3>
+                    <span class="skills__level">Iniciante</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <div>
+                    <h3 class="skills__name">Git</h3>
+                    <span class="skills__level">Intermediário</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer container">
+    <span class="footer__copy">
+      &copy; José Víctor Ardasse. Todos os direitos reservados
+    </span>
+  </footer>
+
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
